@@ -15,7 +15,8 @@
 #inputname {
   width: 200px;
   height: 40px;
-  background-color: #d8b8ef;
+  background-color: black;
+  color:white;
   border:none;
 }
 
