@@ -43,8 +43,8 @@ button {
 #screen {
   display: none;
   position: absolute;
-  top: 250px;
-  left: 250px;
+  top: 3000px;
+  left: 9000px;
   width: 800px;
   height: 650px;
   background-color: black;
