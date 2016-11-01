@@ -9,18 +9,22 @@
 
 .enter-style {
   font-family: 'VT323', monospace;
-  font-size: 2em;
+  font-size: 35px;
 }
 
 #inputname {
-  width: 100px;
-  height: 20px;
+  width: 200px;
+  height: 40px;
   background-color: #d8b8ef;
-  border:none; 
+  border:none;
 }
-button#username {
-  width: 100px;
-  height: 20px;
+
+button {
+  width: 200px;
+  height: 40px;
+  background-color: #907299;
+  border-style: groove;
+  border-color: #7516ba;
 }
 
 #welcome {
