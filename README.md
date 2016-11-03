@@ -8,7 +8,7 @@ User meets a challange in Room 1
 
 User changes to boss room using "cd/boss_room"
 
-User fights King of the code Goblins
+User fights King of the Code Goblins
 
 User wins or loses
 
