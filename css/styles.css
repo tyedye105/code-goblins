@@ -42,7 +42,7 @@ button {
 }
 
 #screen {
-  display: none;
+  /*display: none;*/
   position: absolute;
   top: 3000px;
   left: 9000px;
@@ -55,4 +55,8 @@ button {
 #terminal {
   background-color: black;
   color:white;
+}
+
+span {
+  color: red;
 }

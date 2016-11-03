@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>enter room 1</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/room1.js"></script>
+  <script src="js/user-scripts.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+</head>
+
+<body>
+  <!-- The whole game world screen [BIG]-->
+  <div id="whole-world">
+
+  <!-- Game instructions and form to collect user's name-->
+    <div id="welcome" class="enter-style">
+      <a name="instructions"><h1> code goblins </h1></a>
+      <h3>you are an aspiring coder, abducted by the mysterious entity: the CODE GOBLIN. can you survive the CODE GOBLIN's series of challenges? use the command line to navigate the goblin's layer, or perish in the abyss of 1s and 0s!</h3>
+      <form id ="username">
+       <label for="username">Enter your name: </label>
+       <input id="inputname"type="text" class="enter-style">
+       <br><button class="enter-style"><a href="#room1">START></a></button>
+      </form>
+    </div>
+
+    <!--First Challenge Room-->
+    <div id="room1">
+    <!-- Terminal screen -->
+      <div id="screen">
+        <a name="room1"></a>
+        <form id ="terminal">
+          <p>Enter Room 1 to see hundreds of <span> directories </span> floating above you, out of reach. In front of you, you see a giant directory on the ground, with a faded word on it <span> "Door". </span> </p>
+         <label for="terminal"><span id= "name"></span>$</label>
+         <input id="terminal-input" class="form-control" type="text">
+        </form>
+      </div>
+      
+
+
+      <br><a href= "#instructions"><button class="enter-style">GO BACK</button></a>
+
+    </div>
+  </div>
+</body>
+</html>
