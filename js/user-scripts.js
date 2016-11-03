@@ -17,8 +17,8 @@ $(document).ready(function(){
     $("#room1").show();
     $("#name").text(player1.name);
 // when "start" button pressed, screen scroll into view
-    var screen = document.getElementById("screen");
-    screen.scrollIntoView();
+    var room1 = document.getElementById("room1");
+    room1.scrollIntoView();
   });
 
   $("#back1").click(function(event){

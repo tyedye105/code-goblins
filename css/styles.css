@@ -13,6 +13,13 @@ div {
   left: 0px;
   width: 10000px;
   height: 30000px;
+  /*background: repeating-linear-gradient(
+  45deg,
+  #606dbc,
+  #606dbc 10px,
+  #465298 10px,
+  #465298 20px);*/
+  /*background-image: url("https://www.transparenttextures.com/patterns/random-grey-variations.png");*/
   background-color: #907299;
 }
 
@@ -39,7 +46,8 @@ button {
 
 #welcome {
   position: absolute;
-  padding:20px;
+  padding:40px;
+  margin: 10px;
   top: 250px;
   left: 700px;
   width: 800px;
@@ -54,9 +62,9 @@ button {
   left: 5000px;
   width: 800px;
   height: 650px;
-  padding:20px;
   background-color: black;
   color:white;
+  padding:3px;
 }
 
 #room1{
@@ -66,10 +74,14 @@ button {
   left: 5000px;
   width: 800px;
   height: 750px;
-
+  padding-left:100px;
+  padding-right: 100px;
 }
 
-form#terminal {
+#terminal-input {
+  width: 750px;
+  height: 40px;
   background-color: black;
   color:white;
+  border:none;
 }
