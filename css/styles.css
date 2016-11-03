@@ -1,4 +1,12 @@
 
+/*developer tools*/
+div {
+  border-style: dashed;
+  border-width: 3px;
+  border-color: white;
+}
+
+/*game world*/
 #whole-world {
   position: absolute;
   top: 0px;
@@ -43,20 +51,20 @@ button {
 /*note: apply position:absolute to parent element only*/
 #screen {
   top: 3000px;
-  left: 9000px;
-  width: 800px;
-  height: 650px;
+  left: 5000px;
+  width: 1000px;
+  height: 850px;
   background-color: black;
   color:white;
 }
 
 #room1{
-  display: none;
+  /*display: none;*/
   position: absolute;
   top: 3000px;
-  left: 9000px;
-  width: 800px;
-  height: 800px;
+  left: 5000px;
+  width: 1200px;
+  height: 1200px;
 
 }
 
