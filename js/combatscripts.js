@@ -4,6 +4,8 @@ function Combat(hp, attack, defense) {
   this.defense= defense;
 }
 
+
+
 Combat.prototype.playerAtk= function (hp, attack) {
   goblin.hp = goblin.hp - this.attack;
 }
