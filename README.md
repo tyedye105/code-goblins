@@ -8,6 +8,9 @@
 
 * Description
 
+
+User fights King of the Code Goblins
+=======
 * A web application where a player meets code themed challenges in multiple rooms resulting in player win or loss. Player gains and loses health points / HP.
 
 * Specifications
