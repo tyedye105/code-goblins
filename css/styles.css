@@ -40,16 +40,24 @@ button {
   border-style: groove;
   border-color: #7516ba;
 }
-
+/*note: apply position:absolute to parent element only*/
 #screen {
-  display: none;
-  position: absolute;
   top: 3000px;
   left: 9000px;
   width: 800px;
   height: 650px;
   background-color: black;
   color:white;
+}
+
+#room1{
+  display: none;
+  position: absolute;
+  top: 3000px;
+  left: 9000px;
+  width: 800px;
+  height: 800px;
+
 }
 
 #terminal {

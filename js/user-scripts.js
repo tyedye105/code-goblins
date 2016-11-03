@@ -10,7 +10,7 @@ $(document).ready(function(){
   $("form#username").submit(function(event){
     event.preventDefault();
     player1.name = $("#inputname").val();
-    $("#screen").show();
+    $("#room1").show();
     $("#name").text(player1.name);
   });
 });

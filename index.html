@@ -15,21 +15,27 @@
 
   <!-- Game instructions and form to collect user's name-->
     <div id="welcome" class="enter-style">
-      <h1> code goblins </h1>
+      <a name="instructions"><h1> code goblins </h1></a>
       <h3>you are an aspiring coder, abducted by the mysterious entity: the CODE GOBLIN. can you survive the CODE GOBLIN's series of challenges? use the command line to navigate the goblin's layer, or perish in the abyss of 1s and 0s!</h3>
       <form id ="username">
        <label for="username">Enter your name: </label>
        <input id="inputname"type="text" class="enter-style">
-       <br><button class="enter-style">START</button>
+       <br><button class="enter-style"><a href="#room1">START></a></button>
       </form>
     </div>
 
+    <!--First Challenge Room-->
+    <div id="room1">
     <!-- Terminal screen -->
-    <div id="screen">
-      <form id ="terminal">
-       <label for="terminal"><span id= "name"></span>$</label>
-       <input id="terminal-input" class="form-control" type="text">
-      </form>
+      <div id="screen">
+        <a name="room1"></a>
+        <form id ="terminal">
+         <label for="terminal"><span id= "name"></span>$</label>
+         <input id="terminal-input" class="form-control" type="text">
+        </form>
+      </div>
+
+      <br><a href= "#instructions"><button class="enter-style">GO BACK</button></a>
     </div>
 
 
