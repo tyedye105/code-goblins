@@ -21,7 +21,11 @@ $(document).ready(function(){
 // when "start" button pressed, screen scroll into view
     var room1 = document.getElementById("room1");
     room1.scrollIntoView({behavior: "smooth"});
+  });
 
+  $("form#terminal").submit(function(event){
+    event.preventDefault();
+    $("#intro").show();
   });
 
   $("#back1").click(function(event){
