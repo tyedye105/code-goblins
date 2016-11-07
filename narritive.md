@@ -118,3 +118,97 @@ Enter room 1  The Goblin King's Storage
    player types in ls-
 
   Suddenly all of the directories floating above you sort themselves out revealing 5 directories
+
+
+
+The directories a, junk mail, secrets, my pictures, and resources.
+
+
+
+
+CD my pictures (combat sequence)
+
+
+ You open the directory titled my pictures, revealing what appears to be a picture of a hilly landscape covered in grass,  like the famous windows desktop picture. You start to close the picture, but there is something moving on it, a pair of two shapes. Your curiosity is peaked, perhaps it was a trick being played by the emoji.  Your pulse quickens as objects come into very,  A a code goblin, riding atop a vicious looking worm. Definitely not the emoji you exepected. You close the directory as quickly as you hoping the act of closing the directory would keep the two of them trapped.   The troublesome pair bursts forth from the directory falling down from the ceiling on to the ground.  You hold your hands out ready for battle.
+
+
+Player win
+
+
+The two foes defeated you relax.  The bodies dissapaaring in a cloud of 1’s and 0’s, leaving behind a small box  labeled worm.exe.
+
+
+Player lose.
+
+
+You fought hard against the goblin, and its worm, but alas you couldn’t muster the strength to defeat them.  When you awake you find yourself in the holding cells for the Gobin King, until the end of your days.
+
+
+Player cd a (player obtains door.html)
+
+
+You open the directory to find a single item inside. The name of the file is door.html
+
+
+Player gt door.html the object was added into your inventory.
+
+
+Cd junk mail.
+
+
+You see an impossible long list of junk mail, everything from sexy singles in your area, to a nigerian prince looking for a loan.   If only you had a way to sort it.
+
+
+Ls-a
+
+
+A single message is all that remains.  “ Jim, could you please white list my email so it stops ending up in your junk mail.  We have important work to do!  I have the code file attached.
+
+
+1 attachment: door.js
+
+
+gt door.js
+
+
+
+cd secrets ( Trap player needs to )
+
+You open the secrets dierectory hopping it would reveal the secret way out of this digital nightmare. Instead of you are greeting by a suspicous ticking sound.
+
+if player cd .. with 6 seconds
+
+Upon realizing it was a trap, you tried to let go of the directory as fast as you could, but it was not quick enough.  You saved yourself from the brunt of the blast, but it still hurt like hell (-5 hp)
+
+if the player cd .. within 2 seconds
+
+relying on your instincts, and paranoia of ticking sounds you release the secret directory back up into the ceiling before it explodes.
+
+if the player fails to cd
+
+Game overtake
+
+The last thing you heard was a ding, and then your exsistence ended in a explosion
+
+
+cd resources
+
+The resources directory appears to be empty directory like the door.html, nothing in it at all. perhaps there is something hidden from your gaze.  
+
+player ls -a
+
+shows .secretfolder
+
+cd .secretfolder
+
+door.css
+
+player gt door.css
+
+With the three files mention in the README for the door, you place them in into the door directory, and run the html.  The giant box that was the door directory giant current revealing your next destination.  CGlair
+
+
+player types in cd CGlair
+
+
+You take a deep breath before you hit the enter button, with no sign of Unexpected Token you push onwards into the Code Goblin castle.
