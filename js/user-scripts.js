@@ -2,18 +2,9 @@
 
 function Player() {
   this.name;
-  this.input = [];
 }
 
-Player.prototype.findDoor = function() {
-  if (this.input === "cd door") {
-    alert ("this text");
-  } else if (this.input === "ls -a") {
-    alert ("all files listed here");
-  } else {
-    alert ("find the door and 3 files that belong inside");
-  };
-};
+
 
 //user logic
 $(document).ready(function(){
@@ -23,8 +14,9 @@ $(document).ready(function(){
     player1.name = $("#inputname").val();
     $("#screen").show();
     $("#name").text(player1.name);
+    var room1 = document.getElementById("room1");
+    room1.scrollIntoView();
   });
-<<<<<<< HEAD
 
   $("form#terminal").submit(function(event){
     event.preventDefault();
@@ -37,7 +29,6 @@ $(document).ready(function(){
     var welcome = document.getElementById("welcome");
     welcome.scrollIntoView();
 
->>>>>>> master
   });
 
 });
