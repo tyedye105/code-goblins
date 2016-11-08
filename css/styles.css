@@ -1,10 +1,10 @@
 
 /*developer tools*/
-/*div {
+div {
   border-style: dashed;
   border-width: 1px;
   border-color: white;
-}*/
+}
 
 /*game world*/
 #whole-world {
@@ -140,6 +140,20 @@ button{
   font-size: 30px;
   z-index: 10;
 }
+
+#dollar {
+  /*display:none;*/
+}
+#dlr {
+  text-align: center;
+  font-size: 100px;
+
+}
+
+#lose1 {
+  display: none;
+}
+
 
 .blink_me {
   color:yellow;
