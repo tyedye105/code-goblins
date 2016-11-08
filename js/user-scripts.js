@@ -13,15 +13,16 @@ $(document).ready(function(){
     event.preventDefault();
     player1.name = $("#inputname").val();
     $("#screen").show();
-    $("#name").text(player1.name);
+    $(".name").text(player1.name);
     var room1 = document.getElementById("room1");
     room1.scrollIntoView();
   });
 
   $("form#terminal").submit(function(event){
     event.preventDefault();
-    $("#intro").show();
     $(".name").text(player1.name);
+    $("#intro").show();
+
   });
 
   $("#back1").click(function(event){
