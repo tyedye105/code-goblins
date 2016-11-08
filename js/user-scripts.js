@@ -26,6 +26,7 @@ $(document).ready(function(){
   $("form#terminal").submit(function(event){
     event.preventDefault();
     $("#intro").show();
+    $(".name").text(player1.name);
   });
 
   $("#back1").click(function(event){

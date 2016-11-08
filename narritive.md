@@ -2,7 +2,7 @@ The Intro
 
 
 0.01
- You were simply entering your username into the computer, when a the webcam at the top of your computer screen started to glow a strange shade of purple.  The light slowly started getting brighter and brighter until it was almost blinding.  Trying to shield your eyes from the bright purple light you bring your hand up to your face, only to find yourself unable to move your hand above your chest.  Panic starts to overtake you.  You feel the urge to flee, but you can't move. After a few moments you only see the color purple, the computer lab around is no longer visible.  
+ You were simply entering your username into the computer, when a the webcam at the top of your computer screen started to glow a strange shade of purple. [add purple flash] The light slowly started getting brighter and brighter until it was almost blinding.  Trying to shield your eyes from the bright purple light you bring your hand up to your face, only to find yourself unable to move your hand above your chest.  Panic starts to overtake you.  You feel the urge to flee, but you can't move. After a few moments you only see the color purple, the computer lab around is no longer visible.  
 
 0.02
   A strange tingling sensation travels throughout your body as you are almost deafened from what sounds like the roar of an ancient dial-up modem. This seems to go on for hours, until you feel the familiar sensation of solid ground underneath your feet.  Slowly you feel your balance coming back to you as the bright light slowly fades away revealing your surroundings. Your heart skips a beat as you see that you are no longer in the familiar computer lab, that you have come to know as second home.
