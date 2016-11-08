@@ -4,6 +4,7 @@ function Player() {
   this.name;
 }
 
+
 //user logic
 
 // create player when document is ready
@@ -15,10 +16,16 @@ $(document).ready(function(){
     event.preventDefault();
     player1.name = $("#inputname").val();
     $("#room1").show();
-    $("#name").text(player1.name);
+    $(".name").text(player1.name);
+    $("#player-stats").show();
 // when "start" button pressed, screen scroll into view
     var room1 = document.getElementById("room1");
     room1.scrollIntoView({behavior: "smooth"});
+  });
+
+  $("form#terminal").submit(function(event){
+    event.preventDefault();
+    $("#intro").show();
   });
 
   $("#back1").click(function(event){
