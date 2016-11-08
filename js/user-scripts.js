@@ -2,18 +2,9 @@
 
 function Player() {
   this.name;
-  this.input = [];
 }
 
-Player.prototype.findDoor = function() {
-  if (this.input === "cd door") {
-    alert ("this text");
-  } else if (this.input === "ls -a") {
-    alert ("all files listed here");
-  } else {
-    alert ("find the door and 3 files that belong inside");
-  };
-};
+
 
 //user logic
 $(document).ready(function(){
@@ -23,13 +14,21 @@ $(document).ready(function(){
     player1.name = $("#inputname").val();
     $("#screen").show();
     $("#name").text(player1.name);
+    var room1 = document.getElementById("room1");
+    room1.scrollIntoView();
   });
-  $("form#terminal").submit(function(event) {
-    player1.name = $("form#terminal").val();
-    alert(player1.name);
-    player1.input = $("input#terminal-input").val();
-    alert(player1.input);
-    player1.findDoor();
+
+  $("form#terminal").submit(function(event){
+    event.preventDefault();
+    $("#intro").show();
+    $(".name").text(player1.name);
+  });
+
+  $("#back1").click(function(event){
+    event.preventDefault();
+    var welcome = document.getElementById("welcome");
+    welcome.scrollIntoView();
+
   });
 
 });

@@ -1,10 +1,10 @@
 
 /*developer tools*/
-div {
+/*div {
   border-style: dashed;
   border-width: 1px;
   border-color: white;
-}
+}*/
 
 /*game world*/
 #whole-world {
@@ -13,19 +13,43 @@ div {
   left: 0px;
   width: 100%;
   height: 10000px;
-  /*background: repeating-linear-gradient(
+  background: repeating-linear-gradient(
   45deg,
   #606dbc,
   #606dbc 10px,
   #465298 10px,
-  #465298 20px);*/
-  /*background-image: url("https://www.transparenttextures.com/patterns/random-grey-variations.png");*/
+  #465298 20px);
+  background-image: url("https://www.transparenttextures.com/patterns/random-grey-variations.png");
   background-color: #907299;
 }
 
 .enter-style {
   font-family: 'VT323', monospace;
   font-size: 35px;
+}
+
+.player {
+  font-family: 'VT323', monospace;
+  font-size: 35px;
+  color: grey;
+  font-style: italic;
+  text-align: center;
+}
+
+.emoji {
+  font-family: 'VT323', monospace;
+  font-size: 35px;
+  color: yellow;
+  font-style: italic;
+  text-align: center;
+}
+
+.goblin {
+  font-family: 'VT323', monospace;
+  font-size: 35px;
+  color: #d8b8ef;
+  font-style: italic;
+  text-align: center;
 }
 
 #inputname {
@@ -36,7 +60,7 @@ div {
   border:none;
 }
 
-button {
+button#welcome {
   width: 200px;
   height: 40px;
   background-color: #907299;
@@ -44,8 +68,15 @@ button {
   border-color: #7516ba;
 }
 
-#welcome {
+button{
+  width: 200px;
+  height: 40px;
+  background-color: #d8b8ef;
+  border-style: groove;
+  border-color: #7516ba;
+}
 
+#welcome {
   padding:40px;
   margin: 200px auto 200px auto;
 
@@ -64,16 +95,31 @@ button {
   background-color: black;
   color:white;
   padding:20px;
+
 }
 
+#terminal{
+  margin-top: 40px;
+  background-color: black;
+  width: 800px;
+  height: 40px;
+
+}
+
+#intro {
+  display: none;
+  width: 1250px;
+  height: 700px;
+  overflow-y: scroll;
+}
 
 #room1{
-
   margin: 800px auto 100px auto;
   width: 1400px;
   height: 800px;
   padding: 50px 50px 150px 50px;
 }
+
 
 #terminal-input {
   width: 650px;
@@ -89,16 +135,26 @@ button {
   border-radius: 30px;
   width: 300px;
   height: 200px;
-  background-color: #C8C6D7;
+  background-color: #d8b8ef;
   padding:15px;
   font-size: 30px;
   z-index: 10;
 }
 
-.blink_me {
-  color:yellow;
+#dollar {
+  /*display:none;*/
+}
+#dlr {
+  text-align: center;
+  font-size: 100px;
+
 }
 
-#intro {
+#lose1 {
   display: none;
+}
+
+
+.blink_me {
+  color:yellow;
 }
