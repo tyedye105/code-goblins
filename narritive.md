@@ -163,7 +163,7 @@ Enter room 1  The Goblin King's Storage
  You transport yourself back to the entrance where you last saw Unexpected Token, but there is no sign of the emoji. Without know the name of any other destinations, you soon return back to the "storage" room
 
 
- Player is return back to Room 1
+ Player is return back to Room 1 ---> ALL WRITTEN IN USER-SCRIPTS.JS EXCEPT FOR COMBAT REFERENCED ON LINE 193 - COMMENCING ON LINES 202-215 <---
 ********************
 
 player types “cd door”
