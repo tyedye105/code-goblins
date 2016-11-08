@@ -11,11 +11,11 @@ function Player() {
 
 Player.prototype.findDoor = function() {
   if (this.input === "cd door") {
-    return ("this text");
+    alert ("this text");
   } else if (this.input ==== "ls -a") {
-    return ("all files listed here");
+    alert ("all files listed here");
   } else {
-    return ("find the door and 3 files that belong inside");
+    alert ("find the door and 3 files that belong inside");
   };
 };
 
@@ -28,8 +28,12 @@ $(document).ready(function() {
   $("form#terminal").submit(function(event){
     event.preventDefault();
 
-    var playerInput = new Input();
-    playerInput.push()
+    var player1 = New Player()
+    player1.name = $("form#terminal").val();
+    alert(player1.name);
+    player1.input = $("input#terminal-input").val();
+    alert(player1.input);
+    player1.findDoor();
 
   });
 });
