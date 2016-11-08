@@ -1,10 +1,10 @@
 
 /*developer tools*/
-div {
+/*div {
   border-style: dashed;
   border-width: 1px;
   border-color: white;
-}
+}*/
 
 /*game world*/
 #whole-world {
@@ -36,10 +36,18 @@ div {
   text-align: center;
 }
 
-.goblin {
+.emoji {
   font-family: 'VT323', monospace;
   font-size: 35px;
   color: yellow;
+  font-style: italic;
+  text-align: center;
+}
+
+.goblin {
+  font-family: 'VT323', monospace;
+  font-size: 35px;
+  color: #d8b8ef;
   font-style: italic;
   text-align: center;
 }
@@ -52,7 +60,7 @@ div {
   border:none;
 }
 
-button {
+button#welcome {
   width: 200px;
   height: 40px;
   background-color: #907299;
@@ -60,8 +68,15 @@ button {
   border-color: #7516ba;
 }
 
-#welcome {
+button{
+  width: 200px;
+  height: 40px;
+  background-color: #d8b8ef;
+  border-style: groove;
+  border-color: #7516ba;
+}
 
+#welcome {
   padding:40px;
   margin: 200px auto 200px auto;
 
@@ -80,17 +95,31 @@ button {
   background-color: black;
   color:white;
   padding:20px;
+
+}
+
+#terminal{
+  margin-top: 40px;
+  background-color: black;
+  width: 800px;
+  height: 40px;
+
+}
+
+#intro {
+  display: none;
+  width: 1250px;
+  height: 700px;
   overflow-y: scroll;
 }
 
-
 #room1{
-
   margin: 800px auto 100px auto;
   width: 1400px;
   height: 800px;
   padding: 50px 50px 150px 50px;
 }
+
 
 #terminal-input {
   width: 650px;
@@ -114,8 +143,4 @@ button {
 
 .blink_me {
   color:yellow;
-}
-
-#intro {
-  display: none;
 }
