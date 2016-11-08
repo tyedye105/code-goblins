@@ -2,6 +2,7 @@
 
 function Player() {
   this.name;
+  // this.input = [];
 }
 
 //user logic
