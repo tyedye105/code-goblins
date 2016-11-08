@@ -2,7 +2,7 @@
 /*developer tools*/
 div {
   border-style: dashed;
-  border-width: 3px;
+  border-width: 1px;
   border-color: white;
 }
 
@@ -45,38 +45,34 @@ button {
 }
 
 #welcome {
-  /*position: absolute;*/
+
   padding:40px;
   margin: 200px auto 200px auto;
-  /*top: 200px;
-  left: 200px;*/
+
   width: 800px;
   height: 600px;
   background-color: #d8b8ef;
   border-style: groove;
   border-color: #7516ba;
 }
-/*note: apply position:absolute to parent element only*/
+
 #screen {
   top: 2000px;
   left: 200px;
-  width: 800px;
-  height: 650px;
+  width: 1250px;
+  height: 800px;
   background-color: black;
   color:white;
-  padding:3px;
+  padding:20px;
 }
 
+
 #room1{
-  /*display: none;*/
-  /*position: absolute;
-  top: 2000px;*/
-  /*left: 200px;*/
-  margin: 800px auto 200px auto;
-  width: 800px;
-  height: 750px;
-  padding-left:100px;
-  padding-right: 100px;
+
+  margin: 800px auto 100px auto;
+  width: 1400px;
+  height: 800px;
+  padding: 50px 50px 150px 50px;
 }
 
 #terminal-input {
@@ -89,10 +85,8 @@ button {
 
 #player-stats {
   display: none;
-  position: fixed; top:50%; right:10%;
+  position: fixed; bottom: 10%; left:10%;
   border-radius: 30px;
-  /*top: 3700px;
-  left: 4625px;*/
   width: 300px;
   height: 200px;
   background-color: #C8C6D7;
