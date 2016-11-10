@@ -1,28 +1,67 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>CG combat test</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script src="js/jquery-3.1.1.js"></script>
-    <script src="js/combatscripts.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Combat testing grounds</h1>
-      </div>
-      <div id="player" class="jumbotron">
-        <h2>Player 1 Hp: <span id="currentPlhp"></span>  </h2>
-      </div>
-      <h1> Vs. </h1>
-      <div id="code-goblin" class="jumbotron">
-        <h2>Code Goblin Hp:<span id="currentEhp"></span></h2>
-      </div>
-        <button class="btn" id="attack"> Attack!</button>
-        <button class="btn" id="defend"> Defend </button>
+
+<head>
+  <title>/////code \\ goblins///</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/user-scripts.js"></script>
+  <script src="js/combatscripts.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+</head>
+
+<body>
+  <!-- The whole game world screen [BIG]-->
+  <div id="whole-world">
+
+  <!-- Game instructions and form to collect user's name-->
+    <div id="welcome" class="enter-style">
+      <h1> code goblins </h1>
+      <h3></h3>
+      <form id ="username">
+       <label for="username">Enter your name: </label>
+       <input id="inputname"type="text" class="enter-style">
+       <br><button class="enter-style">START></button>
+      </form>
     </div>
 
-  </body>
+    <!--First Challenge Room-->
+    <div id="room1">
+    <!-- Terminal screen -->
+      <div id="screen" class="enter-style">
+
+        <form id ="terminal">
+         <label for="terminal"><span class= "name"></span>$</label>
+         <input id="terminal-input" class="form-control enter-style" type="text">
+         <p id="terminal-output"></p>
+        </form>
+
+        <!--intro text scrolling in -->
+        <div id="combat1" class"typing">
+          <p id="c1">You open the directory titled my pictures, revealing what appears to be a picture of a hilly landscape covered in grass,  like the famous windows desktop picture. You start to close the picture, but there is something moving on it, a pair of two shapes. Your curiosity is peaked, perhaps it was a trick being played by the emoji.  Your pulse quickens as objects come into very,  A code <span class="goblin">goblin</span>, riding atop a vicious looking <span class="goblin">worm</span>  . Definitely not the emoji you expected. You close the directory as quickly as you hoping the act of closing the directory would keep the two of them trapped.   The troublesome pair bursts forth from the directory falling down from the ceiling on to the ground.  You hold your hands out ready for battle.</p>
+          </p>
+          <p id="c2"></p>
+        </div>
+
+
+      </div>
+      <br>
+
+      <button id="back1" class="enter-style">GO BACK</button>
+    </div>
+
+    <!--Player stats viewer-->
+    <div id= "player-stats" class="enter-style">
+
+      <h1>~<span class="name"></span> </h1>
+      <h1>HP: <span id= "currentPlhp" class ="blink_me"</span></h1>
+
+    </div>
+
+
+
+  </div>
+</body>
+
+
 </html>

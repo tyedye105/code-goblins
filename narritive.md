@@ -203,7 +203,7 @@ Player win
 
 
 1.03b
-The two foes defeated you relax.  The bodies disappearing in a cloud of 1’s and 0’s, leaving behind a small box  labeled worm.exe.
+The two foes defeated you relax.  The bodies disappearing in a cloud of 1’s and 0’s, leaving behind a small box  labeled worm.exe. you pick it up and save it for later.
 
 
 
