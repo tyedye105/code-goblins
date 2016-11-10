@@ -4,6 +4,14 @@ function Player() {
   this.name;
   this.input = [];
 }
+//
+// Player.prototype.takeSign = function() {
+//   if (this.input === "y"){
+//     this.continue = true
+//   } else if (this.input === "n") {
+//     this.continue = false
+//   }
+// }
 
 Player.prototype.findDoor = function() {
   if (this.input === "cd door") {
@@ -42,9 +50,9 @@ Player.prototype.findDoor = function() {
 }
 
 
-
 //user logic
 $(document).ready(function(){
+
   var player1 = new Player();
   $("form#username").submit(function(event){
     event.preventDefault();
@@ -53,24 +61,30 @@ $(document).ready(function(){
     $(".name").text(player1.name);
     var room1 = document.getElementById("room1");
     room1.scrollIntoView();
+    $(".name").text(player1.name);
+    $("#intro").show();
+    $("#player-stats").show();
   });
 
   $("form#terminal").submit(function(event){
     event.preventDefault();
-    $(".name").text(player1.name);
-    $("#intro").show();
 
     player1.input = $("input#terminal-input").val();
     alert(player1.input);
+
     console.log(player1);
+    // player1.takeSign();
+    // console.log(player1.takeSign())
+    // console.log(player1);
+    // console.log(Continue);
+
+
 
     var outPut = player1.findDoor();
     player1.findDoor();
     console.log(outPut);
     $("#intro-hide").hide();
     $("#intro-stay").append("<br><br>"+ outPut);
-    var objDiv = document.getElementById("intro-stay");
-    objDiv.scrollTop = objDiv.scrollHeight;
 
   });
 
