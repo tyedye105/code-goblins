@@ -36,7 +36,9 @@ Player.prototype.findDoor = function() {
     return (">door.css was added to your inventory. you now have all three files in the door directory and can move into your next destination: CGlair. You take a deep breath before you hit the enter button, with no sign of Unexpected Token you push onwards into the Code Goblin castle.")
   } else if (this.input === "cd CGlair") {
     return (">Welcome to the Code Goblin castle")
-  }
+  } else
+    return (">" + this.input + ": command not found");
+
 }
 
 
@@ -63,11 +65,12 @@ $(document).ready(function(){
     console.log(player1);
 
     var outPut = player1.findDoor();
-    // var introStay = $("#intro-stay");
     player1.findDoor();
     console.log(outPut);
     $("#intro-hide").hide();
     $("#intro-stay").append("<br><br>"+ outPut);
+    var objDiv = document.getElementById("intro-stay");
+    objDiv.scrollTop = objDiv.scrollHeight;
 
   });
 
