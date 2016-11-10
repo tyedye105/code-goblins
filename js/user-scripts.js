@@ -2,6 +2,7 @@
 
 function Player() {
   this.name;
+  this.input = [];
 }
 
 
@@ -22,6 +23,10 @@ $(document).ready(function(){
     event.preventDefault();
     $(".name").text(player1.name);
     $("#intro").show();
+
+    player1.input = $("input#terminal-input").val();
+    alert(player1.input);
+    console.log(player1);
 
   });
 
