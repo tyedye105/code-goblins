@@ -348,3 +348,122 @@ player types in cd CGlair
 
 1.09
 You take a deep breath before you hit the enter button, with no sign of Unexpected Token you push onwards into the Code Goblin castle.
+
+Lair of the Goblin King
+
+
+2.00
+In a now familiar flash of energy you are whisked away from the room of a thousand directories into a dark ominous room.  You can’t see anything, yet there is a deep sense of foreboding that you can’t shake.  Then from the darkness comes a sinister voice.
+
+
+“So you have finally made it.  You are different than most of the wanna be code-monkeys my subjects collect.  To have made it this far you must somewhat competent.”
+
+
+In the darkness two large, and narrow red eyes appear, the light from them casting shadows on the face of the King Goblin.  You can feel your hands tensing up, ready for the impending battle.
+
+
+2.01 “You are not the first one that pesky emoji has declared a code-warrior, but will surely be the last.”
+There is a loud scraping noise at disrupts your train of thought as the King threw something along the ground.  You lean down to pick it up, and it was the ) of the emoji’s face. You hardly knew the virtual apparition, but you can’t help but feel angered by its demise.
+
+
+2.03 “You don’t have to share that emoji’s fate.  I am offering you a chance to join me, and together we will achieve things thought to be impossible! Total dominion of both worlds Swear loyalty to me, and I can guarantee you will see your world again.”
+
+
+Prompt (“Will you join the Goblin King in his endeavors?)
+
+
+If “yes”
+
+
+ Ending 1
+2.01a
+ You take the deal offered by the King.  Together you work on creaturing the lines of code that would transcend the barrier between worlds, until the King and his goblin at armies invaded the world you once knew.  You step through the portal to be transported back into the world you left.  Destruction lies all around you, smoke blocking out the night sky.  This was the last thing you would ever see as the King runs you through with his sword.
+“I thank you for your service, but as a codewarrior I can not let the only threat to me persist.”
+
+
+
+If “no”.
+Ending two
+
+
+2.01b
+“ So you have decided that you will share the emoji’s fate.  Then perish by my hand.”
+
+
+2.02a
+You are blinded by a sudden brightening of the room, as now illuminated by red pool of molten javascript waiting below the goblin king's throne.  Boldly you step up to the platform to square off against the king himself.
+
+
+**************
+Battle script adttions
+
+
+@GK hp 50% Gk winds up for a devastating attack.
+
+
+If the player defends the they take greatly reduced damage.
+
+
+@GK 10%
+
+
+“You fight well, but I am growing tired of this.  DIE.”
+
+
+You dodge to the
+
+
+Left
+
+
+Right
+
+
+25% chance of left or right,
+
+
+Fail death,
+
+
+Sucess
+
+
+
+
+You roll to the <span>left or right</span>, and the Kings sword is embedded into the platform, leaving him open for the final blow.
+
+
+2.02b
+If the player player has discovered worm.exe
+And types in “run worm.exe” in the command during the boss fight.
+
+
+“On hunch you type run worm.exe into the command line, and from your keyboard emerges a giant wurm that constricts the goblin king from dodgin your attacks!”
+
+
+Player damage doubled, and goblin king can’t attack for 1 d4 turns.
+
+
+
+
+2.03a
+With the last attack your sword pierces the King’s chest, weakens he crawls to the end of the platform.  Before he jumps he curses your name, swearing he will have his revenge.  The last words you here him say was “git push gk master” and down into the molten javascript he plummets.  
+
+
+The spot where his throne once stood, now featured a screen with a list of names. You find yourself listed as an object.  Poking around you find one attribute that catches your eye.  “Abducted: true”, without a moment’s hesitation you set the status to false.
+
+
+In the blink of an eye you are back in the computer lab where it all started.  Somehow you made it out of there alive.
+
+
+
+
+
+
+2.03b
+Ending 3
+If the player types /dance wurm.exe during the negotiations
+
+
+In a moment of high tension you start to dance uncontrollably, busting out the worm.  The Goblin King is dumbfounded by your dance prowess.
+“Your moves are funky fresh Code Warrior, I will return you to your world.”
